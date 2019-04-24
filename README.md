@@ -6,7 +6,7 @@ cd my-app
 
 npm init -y
 
-mkdir app && touch index.js index.css
+mkdir app && cd app && touch index.js index.css
 
 
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli webpack-dev-server babel-loader css-loader style-loader html-webpack-plugin
